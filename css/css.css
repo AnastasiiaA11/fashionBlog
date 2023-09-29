@@ -1,0 +1,131 @@
+@import url("../css/обнуление.css");
+
+.body {
+	font-family: "PT Serif", sans-serif;
+	max-width: 100%;
+}
+
+.header {
+	padding: 34px 80px;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+
+.header__nav {
+	max-width: 1760px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 686px) {
+
+	.header__nav {
+		display: block;
+	}
+}
+
+@media (max-width: 462px) {
+
+	.header__list {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.header__logo {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 33px;
+	letter-spacing: 2.5px;
+	text-shadow: 0px 0px 10px rgba(201, 169, 110, 1);
+	color: black;
+}
+
+.header__list {
+	width: 368px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__link {
+	color: black;
+}
+
+.home {
+	color: rgba(201, 169, 110, 1);
+}
+
+.footer {
+	text-align: center;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.footer__title {
+	margin: 100px 0px 60px 0px;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.footer__nav {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 29px;
+}
+
+.footer__list {
+	display: flex;
+	width: 353px;
+	justify-content: space-between;
+}
+
+.footer__link {
+	color: black;
+	font-size: 14px;
+}
+
+.footer__social {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 71px;
+
+}
+
+.footer__icons {
+	display: flex;
+	width: 304px;
+	justify-content: space-between;
+
+}
+
+.footer__info {
+	border-top: 1px solid black;
+	width: 1170px;
+}
+
+.footer__text {
+	margin-top: 30px;
+	font-size: 14px;
+	margin-bottom: 29px;
+}
+
+.vehicle {}
+
+.container {}
+
+.vehicle__body {}
+
+.vehicle__title {}
+
+.vehicle__text {}
+
+.vehicle__list {}
+
+.vehicle__item {}
+
+.vehicle__highlight {}
