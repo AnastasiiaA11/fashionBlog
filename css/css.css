@@ -1,7 +1,7 @@
 @import url("../css/обнуление.css");
 
 .body {
-	font-family: "PT Serif", sans-serif;
+	font-family: 'PT Serif', sans-serif;
 	max-width: 100%;
 }
 
@@ -39,7 +39,6 @@
 	font-weight: 700;
 	line-height: 33px;
 	letter-spacing: 2.5px;
-	text-shadow: 0px 0px 10px rgba(201, 169, 110, 1);
 	color: black;
 }
 
@@ -114,18 +113,124 @@
 	margin-bottom: 29px;
 }
 
-.vehicle {}
+.vehicle {
+	background-image: url('../img/vehicle/nature.png');
+	width: 1740px;
+	height: 700px;
+}
 
-.container {}
+.vehicle__body {
+	color: white;
+	padding-top: 490px;
+	width: 530px;
+	height: 100px;
 
-.vehicle__body {}
+}
 
-.vehicle__title {}
+.vehicle__title {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
 
-.vehicle__text {}
+}
 
-.vehicle__list {}
+.vehicle__text {
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Noto Sans JP', 'PT Serif', serif, sans-serif;
+	margin-bottom: 10px;
+}
 
-.vehicle__item {}
+.vehicle__list {
+	display: flex;
+	justify-content: space-between;
+	width: 283px;
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Noto Sans JP', 'PT Serif', serif, sans-serif;
+	line-height: 18.55px;
+}
 
-.vehicle__highlight {}
+.highlight {
+	color: rgba(180, 180, 180, 1);
+}
+
+.article {}
+
+.article__body {
+	float: right;
+}
+
+.article__section {}
+
+.article__title {}
+
+.article__img {}
+
+.article__name {}
+
+.article__subject {}
+
+.article__welcome {}
+
+.article__feature {}
+
+.article__post {}
+
+.article__cloth {}
+
+.article__text {}
+
+.article__list {}
+
+.article__item {}
+
+.highlight {}
+
+.article__categories {}
+
+.article__list-category {}
+
+.article__item-category {}
+
+.article__link {}
+
+.article__media {}
+
+.article__block {}
+
+.article__box {}
+
+.article__img-social {}
+
+.article__statistics {}
+
+.article__tags {}
+
+.article__boxes {}
+
+.post-one {}
+
+.post-one__body {
+	display: flex;
+	margin-top: 60px;
+}
+
+.post-one__column {
+	margin-right: 30px;
+}
+
+.post-one__row {}
+
+.post-one__img {}
+
+.post-one__title {}
+
+.post-one__tourism {}
+
+.post-one__text {}
+
+.post-one__list {}
+
+.post-one__item {}
+
+.highlight {}
