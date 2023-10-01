@@ -1,4 +1,5 @@
 @import url("../css/обнуление.css");
+@import url('../css/footer.css');
 
 .body {
 	font-family: 'PT Serif', sans-serif;
@@ -54,64 +55,6 @@
 
 .home {
 	color: rgba(201, 169, 110, 1);
-}
-
-.footer {
-	text-align: center;
-}
-
-.container {
-	max-width: 1170px;
-	margin: 0 auto;
-}
-
-.footer__title {
-	margin: 100px 0px 60px 0px;
-	font-size: 25px;
-	font-weight: 700;
-}
-
-.footer__nav {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 29px;
-}
-
-.footer__list {
-	display: flex;
-	width: 353px;
-	justify-content: space-between;
-}
-
-.footer__link {
-	color: black;
-	font-size: 14px;
-}
-
-.footer__social {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 71px;
-
-}
-
-.footer__icons {
-	display: flex;
-	width: 304px;
-	justify-content: space-between;
-
-}
-
-.footer__info {
-	border-top: 1px solid black;
-	width: 1170px;
-	padding-bottom: 29px;
-}
-
-.footer__text {
-	margin-top: 30px;
-	font-size: 14px;
-	margin-bottom: 29px;
 }
 
 .vehicle {
@@ -422,6 +365,6 @@
 	justify-content: space-between;
 }
 
-.instagram__item {}
-
-.instagram__img {}
+.instagram__img {
+	border: 1px solid green;
+}
